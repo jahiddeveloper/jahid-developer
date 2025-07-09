@@ -1,0 +1,229 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(247, 246, 246); */
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/**share style**/
+.pri-color {
+    color: #FD6E0A;
+}
+.secendary-background {
+    background-color: #fff8f3;
+}
+
+.dark-2 {
+    color: #474747;
+}
+.text-align {
+    text-align: center;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+/***header**/
+    .header {
+        background-image: url("images/developer.png"), url("images/header_bg.png");
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+.btn-pri {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+/**Nav Styles**/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/***banner styles***/
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 38px 0px 200px;
+}
+.banner-content {
+    max-width: 580px;
+}
+.welcome {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title {
+    font-size: 75px;
+    font-weight: bold;
+}
+.banner-img {
+    width: 580px;
+}
+
+.main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/***about**/
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+.about-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.title-description {
+    font-weight: bold;
+}
+
+/**skills**/
+/* .section-title {
+    margin-top: 130px;
+} */
+
+.skills-container {
+    display: flex;
+    gap: 22px;
+}
+.skill {
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    align-items: center;
+    border-radius: 7px;
+}
+
+
+
+/**resume**/
+.margin {
+    margin-bottom: 70px;
+}
+.resume-container {
+    display: flex;
+    gap: 25px;
+}
+
+.experience-description, .experience-sub-title {
+    color: #757575;
+}
+
+.resume-column-title {
+    font-size: 27px;
+}
+
+.experience-sub-title {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-title {
+    font-size: 22px;
+    font-weight: 700;
+} 
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+
+
+.resume-download-cv {
+    margin-top: 50px;
+}
+
+
+/***fotter style***/
+
+.padding {
+    padding: 40px;
+}
+footer {
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.foter-colamn {
+    width: 50%;
+}
+
+footer input[type="text"] {
+    display: block;
+    height: 64px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+
+footer textarea {
+    padding: 30px 20px 30px 30px;
+    border: none;
+    border-radius: 5px;
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.ja {
+    margin-top: 20px;
+}
